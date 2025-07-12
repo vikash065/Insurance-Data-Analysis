@@ -9,6 +9,7 @@ A dynamic and interactive Power BI dashboard built to analyze key insurance metr
 3. **Power Query** – Data extraction and transformation
 4. **DAX (Data Analysis Expressions)** – Custom measures and KPIs
 5. **Power BI Template (.pbit)** – Enables easy reuse with custom data inputs
+6. **Microsoft Excel** - Feedback data from the customers for sentimental analysis
 
 ## 🔍 Key Features
 
@@ -23,7 +24,7 @@ A dynamic and interactive Power BI dashboard built to analyze key insurance metr
 
 ## 🔌 Data Source
 
-The report connects directly to a **Microsoft SQL Server** database, allowing for real-time data analysis. The `.pbit` template prompts users to enter their **SQL Server and database names**, ensuring seamless integration with their own data.
+The report connects directly to a **Microsoft SQL Server** database, allowing for real-time data analysis. The `.pbit` template prompts users to enter their **SQL Server and database names**, ensuring seamless integration with their own data. It also takes the feedback data of the customers which directly connects to **Microsoft Excel** spreadsheet, which helps in the better understanding of the satisfaction level of the customers.
 
 ## ❗ Business Problem
 
